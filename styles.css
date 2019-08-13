@@ -1,0 +1,44 @@
+body {
+  text-align:center;
+  background-color:#FFEF90;
+}
+.heading {
+  font-family:"Courier New", Courier, monospace;
+  font-size:40px;
+}
+.subheading {
+  font-family:"Courier New", Courier, monospace;
+}
+button {
+  background-color: #68B7FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family:"Courier New", Courier, monospace;
+}
+button:hover{
+  background-color:#6891FF;
+}
+#quoteDisplay{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #E9F1F2;
+  }
+  button {
+    background-color:#F2786D;
+  }
+  button:hover{
+    background-color:#F26B6B;
+  }
+  #quoteDisplay{
+    font-size:15px;
+  }
+}
